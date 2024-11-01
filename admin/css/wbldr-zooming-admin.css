@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.noUi-target {
+    width: 150px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.noUi-horizontal {
+    height: 14px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 15px;
+    height: 20px;
+    left: -7px;
+    top: -4px;
+}
+
+.noUi-handle::before,
+.noUi-handle::after {
+    height: 12px;
+    left: 4px;
+    top: 3px;
+}
+
+.noUi-handle::after {
+    left: 8px;
+}
+
+.noUi-connect {
+    background: rgb(0, 115, 170);
+}
